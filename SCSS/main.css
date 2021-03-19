@@ -1,0 +1,168 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #ecf2f8;
+  overflow-x: hidden;
+}
+
+.card-one {
+  border-radius: 10px;
+  background-color: #7541c8;
+}
+
+.card-one .profile-details .profile-context .person-one {
+  color: #cfcfcf;
+}
+
+.card-one .profile-details .profile-context .person-one-tagline {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.card-one .card-body .paragraph-one {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  color: white;
+  margin-top: -25px;
+}
+
+.card-one .card-body .paragraph-two {
+  color: white;
+  opacity: 70%;
+}
+
+.card-one .bg-pattern-quotation {
+  /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+  position: absolute;
+  left: 406px;
+  top: 10px;
+  width: 100px;
+  opacity: 30%;
+}
+
+.card-two {
+  border-radius: 10px;
+  background-color: #48556a;
+}
+
+.card-two .profile-details .profile-context .person-two {
+  color: white;
+}
+
+.card-two .profile-details .profile-context .person-two-tagline {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.card-two .card-body .paragraph-two {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.card-two .card-body .paragraph-two-one {
+  color: white;
+  opacity: 70%;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.card-three {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-three .profile-details .profile-context .person-three {
+  color: #cfcfcf;
+}
+
+.card-three .profile-details .profile-context .person-three-one-tagline {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.card-three .card-body .paragraph-three {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #48556a;
+}
+
+.card-three .card-body .paragraph-three-two-one {
+  color: #cfcfcf;
+  opacity: 70%;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.card-four {
+  border-radius: 10px;
+  background-color: #19212e;
+}
+
+.card-four .profile-details .profile-context .person-four {
+  color: white;
+}
+
+.card-four .profile-details .profile-context .person-four-tagline {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.card-four .card-body .paragraph-four {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  color: white;
+  margin-top: -25px;
+}
+
+.card-four .card-body .paragraph-four-two {
+  color: #cfcfcf;
+  opacity: 70%;
+}
+
+.card-five {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -440px;
+  height: 54.3rem;
+}
+
+.card-five .profile-details .profile-context .person-five {
+  color: #19212e;
+}
+
+.card-five .profile-details .profile-context .person-five-one-tagline {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.card-five .card-body .paragraph-five {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #19212e;
+  margin-top: 5px;
+}
+
+.card-five .card-body .paragraph-five-two-one {
+  color: #cfcfcf;
+  opacity: 70%;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .card-five {
+    height: 90vh;
+    margin-top: 5px;
+  }
+  .paragraph-five {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

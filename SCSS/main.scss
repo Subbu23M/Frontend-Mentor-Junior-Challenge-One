@@ -1,0 +1,269 @@
+// Colors
+
+// hsl - hue, saturation and lightness
+
+$ModerateViolet: hsl(263, 55%, 52%);
+
+$VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+
+$VeryDarkBlackishBlue: hsl(219, 29%, 14%);
+
+$White: hsl(0, 0%, 100%);
+
+$LightGray: hsl(0, 0%, 81%);
+
+$LightGrayishBlue: hsl(210, 46%, 95%);
+
+$FontFamily:'Barlow Semi Condensed',sans-serif;
+
+// Universal Effects
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $FontFamily;
+    background-color: $LightGrayishBlue;
+    overflow-x: hidden;
+}
+
+// 1
+.card-one{
+    border-radius: 10px;
+    background-color: $ModerateViolet;
+    
+    .profile-details{
+
+        .profile-context{
+
+            .person-one{
+                color: $LightGray;
+            }
+
+            .person-one-tagline{
+                color: $LightGray;
+
+                // The opacity-level describes the transparency-level.
+                opacity: 50%;
+            }
+
+        }
+    }
+
+    .card-body{
+
+        .paragraph-one{
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+            color: $White;
+            margin-top: -25px;
+        }
+
+        .paragraph-two{
+            color: $White;
+
+            // The opacity-level describes the transparency-level.
+            opacity: 70%;
+        }
+    }
+
+    .bg-pattern-quotation{
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+
+        left: 406px;
+        top: 10px;
+        width: 100px;
+
+        // The opacity-level describes the transparency-level.
+        opacity: 30%;
+    }
+}
+
+// 2
+.card-two{
+    border-radius: 10px;
+    background-color: $VeryDarkGrayishBlue;
+    
+    .profile-details{
+
+        .profile-context{
+
+            .person-two{
+                color: $White;
+            }
+
+            .person-two-tagline{
+                color: $LightGray;
+
+                // The opacity-level describes the transparency-level.
+                opacity: 50%;
+            }
+
+        }
+    }
+
+    .card-body{
+
+        .paragraph-two{
+            font-size: 1rem;
+            letter-spacing: 3px;
+            color:$White;
+        }
+
+        .paragraph-two-one{
+            color: $White;
+
+            // The opacity-level describes the transparency-level.
+            opacity: 70%;
+
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+// 3
+.card-three{
+    border-radius: 10px;
+    background-color: $White;
+    
+    .profile-details{
+
+        .profile-context{
+
+            .person-three{
+                color: $LightGray;
+            }
+
+            .person-three-one-tagline{
+                color: $LightGray;
+
+                // The opacity-level describes the transparency-level.
+                opacity: 50%;
+            }
+
+        }
+    }
+
+    .card-body{
+
+        .paragraph-three{
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            color:$VeryDarkGrayishBlue;
+        }
+
+        .paragraph-three-two-one{
+            color: $LightGray;
+
+            // The opacity-level describes the transparency-level.
+            opacity: 70%;
+
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+// 4
+.card-four {
+    border-radius: 10px;
+    background-color:$VeryDarkBlackishBlue;
+
+    .profile-details {
+
+        .profile-context {
+
+            .person-four {
+                color: $White;
+            }
+
+            .person-four-tagline {
+                color: $LightGray;
+
+                // The opacity-level describes the transparency-level.
+                opacity: 50%;
+            }
+
+        }
+    }
+
+    .card-body {
+
+        .paragraph-four {
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+            color: $White;
+            margin-top: -25px;
+        }
+
+        .paragraph-four-two {
+            color: $LightGray;
+
+            // The opacity-level describes the transparency-level.
+            opacity: 70%;
+        }
+    }
+}
+
+// 5
+.card-five {
+    border-radius: 10px;
+    background-color: $White;
+    margin-top: -440px;
+    height: 54.3rem;
+
+    .profile-details {
+
+        .profile-context {
+
+            .person-five {
+                color: $VeryDarkBlackishBlue;
+            }
+
+            .person-five-one-tagline {
+                color: $LightGray;
+
+                // The opacity-level describes the transparency-level.
+                opacity: 50%;
+            }
+
+        }
+    }
+
+    .card-body {
+
+        .paragraph-five {
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            color: $VeryDarkBlackishBlue;
+            margin-top:5px;
+        }
+
+        .paragraph-five-two-one {
+            color: $LightGray;
+
+            // The opacity-level describes the transparency-level.
+            opacity: 70%;
+
+            font-size: 1.1rem;
+        }
+    }
+}
+
+// Media Queries
+// On XS Screens
+@media only screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .card-five{
+        height: 90vh;
+        margin-top: 5px;
+    }
+    .paragraph-five{
+        margin-top: 0px;
+    }
+}
